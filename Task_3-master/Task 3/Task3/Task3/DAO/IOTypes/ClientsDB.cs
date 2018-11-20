@@ -22,7 +22,7 @@ namespace Task3.DAO.IOTypes
             {
                 if (value.Count == 0)
                 {
-                    throw new ArgumentOutOfRangeException("ClientsDB is empty");
+                    throw new ArgumentOutOfRangeException("ClientsDB is empty!");
                 }
                 allClients = value;
             }
