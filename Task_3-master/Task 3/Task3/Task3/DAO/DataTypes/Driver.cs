@@ -161,24 +161,24 @@
 
         public Driver()
         {
-            PayCheck = 0;
+            this.PayCheck = 0;
         }
 
-        public Driver(uint _id, string _surname, string _name, uint _age, string _carNumber, uint _experience, uint _cost, double _pay = 0)
+        public Driver(uint id, string surname, string name, uint age, string carNumber, uint experience, uint cost, double pay = 0)
         {
-            Id = _id;
-            Surname = _surname;
-            Name = _name;
-            Age = _age;
-            CarNumber = _carNumber;
-            Experience = _experience;
-            CostPerMinute = _cost;
-            PayCheck = _pay;
+            this.Id = id;
+            this.Surname = surname;
+            this.Name = name;
+            this.Age = age;
+            this.CarNumber = carNumber;
+            this.Experience = experience;
+            this.CostPerMinute = cost;
+            this.PayCheck = pay;
         }
 
         public override string ToString()
         {
-            return String.Format("{0} {1} {2} {3} {4} {5} {6} {7}", Id, Surname, Name, Age, CarNumber, Experience, CostPerMinute, PayCheck);
+            return String.Format("{0} {1} {2} {3} {4} {5} {6} {7}", this.Id, this.Surname, this.Name, this.Age, this.CarNumber, this.Experience, this.CostPerMinute, this.PayCheck);
         }
     }
 }
