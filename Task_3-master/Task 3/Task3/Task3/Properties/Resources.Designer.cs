@@ -33,6 +33,10 @@ namespace Task3.Properties
         internal Resources()
         {
         }
+      /// <summary>
+        ///   Overrides the current thread's CurrentUICulture property for all
+        ///   resource lookups using this strongly typed resource class.
+        /// </summary> 
 
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
@@ -54,7 +58,7 @@ namespace Task3.Properties
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
-        /// </summary>
+        /// </summary> 
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         internal static global::System.Globalization.CultureInfo Culture
         {
