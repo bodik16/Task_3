@@ -97,6 +97,10 @@
             }
         }
 
+        /// <summary>
+        /// Returns a string that represents the current instance
+        /// </summary>
+        /// <returns><see cref="T:System.String"/></returns>
         public override string ToString()
         {
             return String.Format("{0} {1} {2}", this.Id, this.Name, this.PhoneNumber);
