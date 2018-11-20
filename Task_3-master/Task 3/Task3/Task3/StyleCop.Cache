@@ -101,7 +101,7 @@
     <timestamps>
       <styleCop>2018.09.19 12:18:01.198</styleCop>
       <settingsFile>2018.09.19 12:18:00.956</settingsFile>
-      <sourceFile>2018.11.21 00:27:36.929</sourceFile>
+      <sourceFile>2018.11.21 00:30:32.832</sourceFile>
       <parser>2018.09.19 12:18:01.198</parser>
       <StyleCop.CSharp.DocumentationRules>2018.09.19 12:18:01.198</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-886176950</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -259,113 +259,9 @@
         <line>162</line>
         <warning>False</warning>
       </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to PayCheck must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>164</line>
-        <index>3681</index>
-        <endIndex>3688</endIndex>
-        <startLine>164</startLine>
-        <startColumn>13</startColumn>
-        <endLine>164</endLine>
-        <endColumn>20</endColumn>
-        <warning>False</warning>
-      </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The constructor must have a documentation header.</context>
         <line>167</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotBeginWithUnderscore" ruleCheckId="SA1309">
-        <context>Field names must not start with an underscore.</context>
-        <line>167</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to Id must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>169</line>
-        <index>3873</index>
-        <endIndex>3874</endIndex>
-        <startLine>169</startLine>
-        <startColumn>13</startColumn>
-        <endLine>169</endLine>
-        <endColumn>14</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to Surname must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>170</line>
-        <index>3896</index>
-        <endIndex>3902</endIndex>
-        <startLine>170</startLine>
-        <startColumn>13</startColumn>
-        <endLine>170</endLine>
-        <endColumn>19</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to Name must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>171</line>
-        <index>3929</index>
-        <endIndex>3932</endIndex>
-        <startLine>171</startLine>
-        <startColumn>13</startColumn>
-        <endLine>171</endLine>
-        <endColumn>16</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to Age must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>172</line>
-        <index>3956</index>
-        <endIndex>3958</endIndex>
-        <startLine>172</startLine>
-        <startColumn>13</startColumn>
-        <endLine>172</endLine>
-        <endColumn>15</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to CarNumber must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>173</line>
-        <index>3981</index>
-        <endIndex>3989</endIndex>
-        <startLine>173</startLine>
-        <startColumn>13</startColumn>
-        <endLine>173</endLine>
-        <endColumn>21</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to Experience must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>174</line>
-        <index>4018</index>
-        <endIndex>4027</endIndex>
-        <startLine>174</startLine>
-        <startColumn>13</startColumn>
-        <endLine>174</endLine>
-        <endColumn>22</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to CostPerMinute must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>175</line>
-        <index>4057</index>
-        <endIndex>4069</endIndex>
-        <startLine>175</startLine>
-        <startColumn>13</startColumn>
-        <endLine>175</endLine>
-        <endColumn>25</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to PayCheck must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>176</line>
-        <index>4093</index>
-        <endIndex>4100</endIndex>
-        <startLine>176</startLine>
-        <startColumn>13</startColumn>
-        <endLine>176</endLine>
-        <endColumn>20</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
@@ -376,94 +272,6 @@
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
         <context>Use the built-in type alias 'string' rather than String or System.String.</context>
         <line>181</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to Id must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>181</line>
-        <index>4246</index>
-        <endIndex>4247</endIndex>
-        <startLine>181</startLine>
-        <startColumn>69</startColumn>
-        <endLine>181</endLine>
-        <endColumn>70</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to Surname must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>181</line>
-        <index>4250</index>
-        <endIndex>4256</endIndex>
-        <startLine>181</startLine>
-        <startColumn>73</startColumn>
-        <endLine>181</endLine>
-        <endColumn>79</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to Name must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>181</line>
-        <index>4259</index>
-        <endIndex>4262</endIndex>
-        <startLine>181</startLine>
-        <startColumn>82</startColumn>
-        <endLine>181</endLine>
-        <endColumn>85</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to Age must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>181</line>
-        <index>4265</index>
-        <endIndex>4267</endIndex>
-        <startLine>181</startLine>
-        <startColumn>88</startColumn>
-        <endLine>181</endLine>
-        <endColumn>90</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to CarNumber must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>181</line>
-        <index>4270</index>
-        <endIndex>4278</endIndex>
-        <startLine>181</startLine>
-        <startColumn>93</startColumn>
-        <endLine>181</endLine>
-        <endColumn>101</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to Experience must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>181</line>
-        <index>4281</index>
-        <endIndex>4290</endIndex>
-        <startLine>181</startLine>
-        <startColumn>104</startColumn>
-        <endLine>181</endLine>
-        <endColumn>113</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to CostPerMinute must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>181</line>
-        <index>4293</index>
-        <endIndex>4305</endIndex>
-        <startLine>181</startLine>
-        <startColumn>116</startColumn>
-        <endLine>181</endLine>
-        <endColumn>128</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to PayCheck must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>181</line>
-        <index>4308</index>
-        <endIndex>4315</endIndex>
-        <startLine>181</startLine>
-        <startColumn>131</startColumn>
-        <endLine>181</endLine>
-        <endColumn>138</endColumn>
         <warning>False</warning>
       </violation>
     </violations>

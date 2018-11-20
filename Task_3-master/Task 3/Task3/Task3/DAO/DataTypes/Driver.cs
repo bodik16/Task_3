@@ -17,6 +17,23 @@
         private uint costPerMinute;
         private double payCheck;
 
+        public Driver()
+        {
+            this.PayCheck = 0;
+        }
+
+        public Driver(uint id, string surname, string name, uint age, string carNumber, uint experience, uint cost, double pay = 0)
+        {
+            this.Id = id;
+            this.Surname = surname;
+            this.Name = name;
+            this.Age = age;
+            this.CarNumber = carNumber;
+            this.Experience = experience;
+            this.CostPerMinute = cost;
+            this.PayCheck = pay;
+        }
+
         public uint Id
         {
             get
@@ -34,12 +51,14 @@
                 this.id = value;
             }
         }
+
         public string Surname
         {
             get
             {
                 return this.surname;
             }
+
             set
             {
                 if (String.IsNullOrEmpty(value))
@@ -157,23 +176,6 @@
 
                 this.payCheck = value;
             }
-        }
-
-        public Driver()
-        {
-            this.PayCheck = 0;
-        }
-
-        public Driver(uint id, string surname, string name, uint age, string carNumber, uint experience, uint cost, double pay = 0)
-        {
-            this.Id = id;
-            this.Surname = surname;
-            this.Name = name;
-            this.Age = age;
-            this.CarNumber = carNumber;
-            this.Experience = experience;
-            this.CostPerMinute = cost;
-            this.PayCheck = pay;
         }
 
         public override string ToString()
