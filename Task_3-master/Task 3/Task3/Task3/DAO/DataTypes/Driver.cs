@@ -26,7 +26,7 @@ namespace Task3.DAO.DataTypes
             {
                 if (value < 0)
                 {
-                    throw new ArgumentOutOfRangeException("Driver id cant be < 0");
+                    throw new ArgumentOutOfRangeException("Driver id can't be < 0");
                 }
                 id = value;
             }
@@ -41,7 +41,7 @@ namespace Task3.DAO.DataTypes
             {
                 if (String.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentOutOfRangeException("Drive surname cant be empty");
+                    throw new ArgumentOutOfRangeException("Drive surname can't be empty");
                 }
                 surname = value;
             }
@@ -56,7 +56,7 @@ namespace Task3.DAO.DataTypes
             {
                 if (String.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentOutOfRangeException("Drive name cant be empty");
+                    throw new ArgumentOutOfRangeException("Drive name can't be empty");
                 }
                 name = value;
             }
@@ -86,7 +86,7 @@ namespace Task3.DAO.DataTypes
             {
                 if (String.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentOutOfRangeException("Car Number cant be empty");
+                    throw new ArgumentOutOfRangeException("Car Number can't be empty");
                 }
                 carNumber = value;
             }
@@ -116,7 +116,7 @@ namespace Task3.DAO.DataTypes
             {
                 if (value <= 0)
                 {
-                    throw new ArgumentOutOfRangeException("Cost per minute cant be less then 0");
+                    throw new ArgumentOutOfRangeException("Cost per minute can't be less then 0");
                 }
                 costPerMinute = value;
             }
@@ -131,7 +131,7 @@ namespace Task3.DAO.DataTypes
             {
                 if (value < 0)
                 {
-                    throw new ArgumentOutOfRangeException("PayCheck cnat be < than 0");
+                    throw new ArgumentOutOfRangeException("PayCheck can't be < than 0");
                 }
                 payCheck = value;
             }
