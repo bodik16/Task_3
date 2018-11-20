@@ -16,7 +16,7 @@
         {
             get
             {
-                return id;
+                return this.id;
             }
 
             set
@@ -26,7 +26,7 @@
                     throw new ArgumentOutOfRangeException("Client Id can't be < than 0");
                 }
 
-                id = value;
+                this.id = value;
             }
         }
 
@@ -52,7 +52,7 @@
         {
             get
             {
-                return phoneNumber;
+                return this.phoneNumber;
             }
 
             set
@@ -61,7 +61,8 @@
                 {
                     throw new ArgumentOutOfRangeException("Phone number is incorrect");
                 }
-                phoneNumber = value;
+
+                this.phoneNumber = value;
             }
         }
 
@@ -69,7 +70,7 @@
 
         public Client(uint _id, string _name, string _phoneNumber)
         {
-            Id = _id;
+            this.Id = _id;
             Name = _name;
             PhoneNumber = _phoneNumber;
         }
