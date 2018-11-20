@@ -31,6 +31,10 @@
             this.PhoneNumber = phoneNumber;
         }
 
+        /// <summary>
+        /// Gets variable id
+        /// </summary>
+        /// <value>The id</value>
         public uint Id
         {
             get
@@ -49,6 +53,10 @@
             }
         }
 
+        /// <summary>
+        /// Gets variable name
+        /// <value>The name</value>
+        /// </summary>
         public string Name
         {
             get
@@ -67,6 +75,10 @@
             }
         }
 
+        /// <summary>
+        ///  Gets variable phoneNumber
+        ///  <value>The phoneNumber</value>
+        /// </summary>
         public string PhoneNumber
         {
             get
