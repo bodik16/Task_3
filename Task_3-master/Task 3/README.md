@@ -5,9 +5,8 @@
 
 # Варіант 1. “Замовлення таксі (для водія таксі)”. 
 
-#### Команда 7:
-* [Andriana Shcherbak](https://github.com/Andriana008)
-* [Andrew Dubyk](https://github.com/andrewDubyk)
-* [Olya Pastushchak](https://github.com/OlyaPastushchak)
-* [Mariia Hapatyn](https://github.com/MariiaHapatyn)
-* [Natalia Pachva](https://github.com/nataliapachva)
+#### Команда Grasshoppers:
+1) Berkela Volodymyr
+2) Lukyana Kiral
+3) Valentina Romanchuk
+4) Bohdan Shomko
