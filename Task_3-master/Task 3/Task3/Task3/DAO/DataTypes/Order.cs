@@ -20,7 +20,7 @@ namespace Task3.DAO.DataTypes
             {
                 if (value < 0)
                 {
-                    throw new ArgumentOutOfRangeException("Id cant be <0");
+                    throw new ArgumentOutOfRangeException("Id can't be <0");
                 }
                 id = value;
             }
