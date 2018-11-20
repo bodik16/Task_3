@@ -11,8 +11,19 @@
     /// </summary>
     public class Client
     {
+        /// <summary>
+        /// Variable id
+        /// </summary>
         private uint id;
+
+        /// <summary>
+        /// Variable name
+        /// </summary>
         private string name;
+
+        /// <summary>
+        /// Variable phoneNumber
+        /// </summary>
         private string phoneNumber;
 
         public Client()
@@ -21,9 +32,9 @@
         /// <summary>
         /// Initializes a new instance of the <see cref="T:Task3.DAO.DataTypes"/> class with specified id, name, phoneNumber
         /// </summary>
-        /// <param name="id"></param>
-        /// <param name="name"></param>
-        /// <param name="phoneNumber"></param>
+        /// <param name="id">id</param>
+        /// <param name="name">name</param>
+        /// <param name="phoneNumber">phoneNumber</param>
         public Client(uint id, string name, string phoneNumber)
         {
             this.Id = id;
@@ -76,7 +87,7 @@
         }
 
         /// <summary>
-        ///  Gets variable phoneNumber
+        /// Gets variable phoneNumber
         /// </summary>
         /// <value>The phoneNumber</value>
         public string PhoneNumber

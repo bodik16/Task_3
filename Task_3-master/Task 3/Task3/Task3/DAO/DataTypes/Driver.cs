@@ -11,17 +11,48 @@
     /// </summary>
     public class Driver
     {
+        /// <summary>
+        /// Variable id
+        /// </summary>
         private uint id;
+
+        /// <summary>
+        /// Variable surname
+        /// </summary>
         private string surname;
+
+        /// <summary>
+        /// Variable name
+        /// </summary>
         private string name;
+
+        /// <summary>
+        /// Variable age
+        /// </summary>
         private uint age;
+
+        /// <summary>
+        /// Variable carNumber
+        /// </summary>
         private string carNumber;
+
+        /// <summary>
+        /// Variable experience
+        /// </summary>
         private uint experience;
+
+        /// <summary>
+        /// Variable costPerMinute
+        /// </summary>
         private uint costPerMinute;
+
+        /// <summary>
+        /// Variable payCheck
+        /// </summary>
         private double payCheck;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="T:Task3.DAO.DataTypes"/> class
+        /// Initializes a new instance of the <see cref="Driver"/> class
         /// </summary>
         public Driver()
         {
@@ -29,16 +60,16 @@
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="T:Task3.DAO.DataTypes"/> class with specified id, surname, name, age, carNumber, experience, cost, pay
+        /// Initializes a new instance of the <see cref="Driver"/> class with specified id, surname, name, age, carNumber, experience, cost, pay
         /// </summary>
-        /// <param name="id"></param>
-        /// <param name="surname"></param>
-        /// <param name="name"></param>
-        /// <param name="age"></param>
-        /// <param name="carNumber"></param>
-        /// <param name="experience"></param>
-        /// <param name="cost"></param>
-        /// <param name="pay"></param>
+        /// <param name="id">id</param>
+        /// <param name="surname">surname</param>
+        /// <param name="name">name</param>
+        /// <param name="age">age</param>
+        /// <param name="carNumber">carNumber</param>
+        /// <param name="experience">experience</param>
+        /// <param name="cost">cost</param>
+        /// <param name="pay">pay</param>
         public Driver(uint id, string surname, string name, uint age, string carNumber, uint experience, uint cost, double pay = 0)
         {
             this.Id = id;

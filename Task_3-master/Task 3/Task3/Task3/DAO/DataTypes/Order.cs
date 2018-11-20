@@ -163,15 +163,15 @@
         /// <summary>
         /// Initializes a new instance of the <see cref="T:Task3.DAO.DataTypes"/> class with specified id, client, driver, arrive, dispatch, destination, roadTime, cost, isDone
         /// </summary>
-        /// <param name="id"></param>
-        /// <param name="client"></param>
-        /// <param name="driver"></param>
-        /// <param name="arrive"></param>
-        /// <param name="dispatch"></param>
-        /// <param name="destination"></param>
-        /// <param name="roadTime"></param>
-        /// <param name="cost"></param>
-        /// <param name="isDone"></param>
+        /// <param name="id">id</param>
+        /// <param name="client">client</param>
+        /// <param name="driver">driver</param>
+        /// <param name="arrive">arrive</param>
+        /// <param name="dispatch">dispatch</param>
+        /// <param name="destination">destination</param>
+        /// <param name="roadTime">roadTime</param>
+        /// <param name="cost">cost</param>
+        /// <param name="isDone">isDone</param>
         public Order(uint id, Client client, Driver driver, DateTime arrive, string dispatch, string destination, uint roadTime, uint cost = 0, bool isDone = false)
         {
             this.Id = id;
