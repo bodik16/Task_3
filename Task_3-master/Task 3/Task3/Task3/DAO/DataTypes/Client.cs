@@ -25,6 +25,7 @@
                 {
                     throw new ArgumentOutOfRangeException("Client Id can't be < than 0");
                 }
+
                 id = value;
             }
         }
@@ -42,15 +43,18 @@
                 {
                     throw new ArgumentOutOfRangeException("Name can't be empty");
                 }
+
                 name = value;
             }
         }
+
         public string PhoneNumber
         {
             get
             {
                 return phoneNumber;
             }
+
             set
             {
                 if (value.Length < 10 || value.Length > 13)
@@ -60,6 +64,7 @@
                 phoneNumber = value;
             }
         }
+
         public Client() { }
 
         public Client(uint _id, string _name, string _phoneNumber)
@@ -68,6 +73,7 @@
             Name = _name;
             PhoneNumber = _phoneNumber;
         }
+
         public override string ToString()
         {
             return String.Format("{0} {1} {2}", Id, Name, PhoneNumber);
