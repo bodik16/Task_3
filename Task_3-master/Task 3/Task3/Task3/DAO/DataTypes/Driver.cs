@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task3.DAO.DataTypes
+﻿namespace Task3.DAO.DataTypes
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
     public class Driver
     {
         private uint id;
@@ -16,26 +16,29 @@ namespace Task3.DAO.DataTypes
         private uint experience;
         private uint costPerMinute;
         private double payCheck;
+
         public uint Id
         {
             get
             {
-                return id;
+                return this.id;
             }
+
             set
             {
                 if (value < 0)
                 {
                     throw new ArgumentOutOfRangeException("Driver id can't be < 0");
                 }
-                id = value;
+
+                this.id = value;
             }
         }
         public string Surname
         {
             get
             {
-                return surname;
+                return this.surname;
             }
             set
             {
@@ -43,103 +46,124 @@ namespace Task3.DAO.DataTypes
                 {
                     throw new ArgumentOutOfRangeException("Drive surname can't be empty");
                 }
-                surname = value;
+
+                this.surname = value;
             }
         }
+
         public string Name
         {
             get
             {
-                return name;
+                return this.name;
             }
+
             set
             {
                 if (String.IsNullOrEmpty(value))
                 {
                     throw new ArgumentOutOfRangeException("Drive name can't be empty");
                 }
-                name = value;
+
+                this.name = value;
             }
         }
+
         public uint Age
         {
             get
             {
-                return age;
+                return this.age;
             }
+
             set
             {
                 if (value < 18)
                 {
                     throw new ArgumentOutOfRangeException("Driver is too young!");
                 }
-                age = value;
+
+                this.age = value;
             }
         }
+
         public string CarNumber
         {
             get
             {
-                return carNumber;
+                return this.carNumber;
             }
+
             set
             {
                 if (String.IsNullOrEmpty(value))
                 {
                     throw new ArgumentOutOfRangeException("Car Number can't be empty");
                 }
-                carNumber = value;
+
+                this.carNumber = value;
             }
         }
+
         public uint Experience
         {
             get
             {
-                return experience;
+                return this.experience;
             }
+
             set
             {
                 if (value < 2)
                 {
                     throw new ArgumentOutOfRangeException("Drive has a small experience");
                 }
-                experience = value;
+
+                this.experience = value;
             }
         }
+
         public uint CostPerMinute
         {
             get
             {
-                return costPerMinute;
+                return this.costPerMinute;
             }
+
             set
             {
                 if (value <= 0)
                 {
                     throw new ArgumentOutOfRangeException("Cost per minute can't be less then 0");
                 }
-                costPerMinute = value;
+
+                this.costPerMinute = value;
             }
         }
+
         public double PayCheck
         {
             get
             {
-                return payCheck;
+                return this.payCheck;
             }
+
             set
             {
                 if (value < 0)
                 {
                     throw new ArgumentOutOfRangeException("PayCheck can't be < than 0");
                 }
-                payCheck = value;
+
+                this.payCheck = value;
             }
         }
+
         public Driver()
         {
             PayCheck = 0;
         }
+
         public Driver(uint _id, string _surname, string _name, uint _age, string _carNumber, uint _experience, uint _cost, double _pay = 0)
         {
             Id = _id;
@@ -151,6 +175,7 @@ namespace Task3.DAO.DataTypes
             CostPerMinute = _cost;
             PayCheck = _pay;
         }
+
         public override string ToString()
         {
             return String.Format("{0} {1} {2} {3} {4} {5} {6} {7}", Id, Surname, Name, Age, CarNumber, Experience, CostPerMinute, PayCheck);
