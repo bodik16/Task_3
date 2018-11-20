@@ -1,36 +1,40 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using Task3.DAO.DataTypes;
-
-
-
-
-namespace Task3.DAO.IOTypes
+﻿namespace Task3.DAO.IOTypes
 {
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using Task3.DAO.DataTypes;
+
+    /// <summary>
+    /// Represents class ClientsDB
+    /// </summary>
     public class ClientsDB
     {
         private readonly string fileName;
         private List<Client> allClients;
+
         public List<Client> AllClients
         {
             get
             {
-                return allClients;
+                return this.allClients;
             }
+
             set
             {
                 if (value.Count == 0)
                 {
                     throw new ArgumentOutOfRangeException("ClientsDB is empty!");
                 }
-                allClients = value;
+
+                this.allClients = value;
             }
         }
-        public ClientsDB(string _fileName)
+
+        public ClientsDB(string fileName)
         {
             allClients = new List<Client>();
-            fileName = _fileName;
+            this.fileName = fileName;
         }
 
         public void ReadFromFile()
