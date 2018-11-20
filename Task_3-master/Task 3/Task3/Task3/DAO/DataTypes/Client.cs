@@ -55,8 +55,8 @@
 
         /// <summary>
         /// Gets variable name
-        /// <value>The name</value>
         /// </summary>
+        /// <value>The name</value>
         public string Name
         {
             get
@@ -77,8 +77,8 @@
 
         /// <summary>
         ///  Gets variable phoneNumber
-        ///  <value>The phoneNumber</value>
         /// </summary>
+        /// <value>The phoneNumber</value>
         public string PhoneNumber
         {
             get

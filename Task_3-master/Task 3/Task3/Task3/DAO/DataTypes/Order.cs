@@ -2,6 +2,9 @@
 {
     using System;
 
+    /// <summary>
+    /// Represents class Order
+    /// </summary>
     public class Order
     {
         private uint id;
@@ -10,6 +13,10 @@
         private uint roadTime;
         private uint cost;
 
+        /// <summary>
+        /// Gets variable id
+        /// </summary>
+        /// <value>The id</value>
         public uint Id
         {
             get
@@ -28,6 +35,10 @@
             }
         }
 
+        /// <summary>
+        /// Gets variable client
+        /// </summary>
+        /// <value>The client</value>
         public Client Client
         {
             get
@@ -41,10 +52,22 @@
             }
         }
 
+        /// <summary>
+        /// Gets variable driver
+        /// </summary>
+        /// <value>The driver</value>
         public Driver Driver { get; set; }
 
+        /// <summary>
+        /// Gets variable arriveTime
+        /// </summary>
+        /// <value>The arriveTime</value>
         public DateTime ArriveTime { get; set; }
 
+        /// <summary>
+        /// Gets variable dispatch
+        /// </summary>
+        /// <value>The dispatch</value>
         public string Dispatch
         {
             get
@@ -57,6 +80,10 @@
             }
         }
 
+        /// <summary>
+        /// Gets variable destination
+        /// </summary>
+        /// <value>The destination</value>
         public string Destination
         {
             get
@@ -75,6 +102,10 @@
             }
         }
 
+        /// <summary>
+        /// Gets variable roadTime
+        /// </summary>
+        /// <value>The roadTime</value>
         public uint RoadTime
         {
             get
@@ -93,6 +124,10 @@
             }
         }
 
+        /// <summary>
+        /// Gets variable cost
+        /// </summary>
+        /// <value>The cost</value>
         public uint Cost
         {
             get
@@ -111,12 +146,32 @@
             }
         }
 
+        /// <summary>
+        /// Gets variable isDone
+        /// </summary>
+        /// <value>The isDone</value>
         public bool IsDone { get; set; }
 
+        /// <summary>
+        /// Gets variable client1
+        /// </summary>
+        /// <value>The client1</value>
         public Client Client1 { get; set; }
 
         public Order() { }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="T:Task3.DAO.DataTypes"/> class with specified id, client, driver, arrive, dispatch, destination, roadTime, cost, isDone
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="client"></param>
+        /// <param name="driver"></param>
+        /// <param name="arrive"></param>
+        /// <param name="dispatch"></param>
+        /// <param name="destination"></param>
+        /// <param name="roadTime"></param>
+        /// <param name="cost"></param>
+        /// <param name="isDone"></param>
         public Order(uint id, Client client, Driver driver, DateTime arrive, string dispatch, string destination, uint roadTime, uint cost = 0, bool isDone = false)
         {
             this.Id = id;
@@ -130,6 +185,10 @@
             this.IsDone = isDone;
         }
 
+        /// <summary>
+        /// Returns a string that represents the current instance
+        /// </summary>
+        /// <returns><see cref="T:System.String"/></returns>
         public override string ToString()
         {
             return String.Format("{0} {1} {2} {3} {4} {5} {6} {7} {8}", Id, Client.Id, Driver.Id, ArriveTime.ToString("yyyy-MM-dd_HH:mm"), Dispatch, Destination, RoadTime, Cost, IsDone);

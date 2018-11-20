@@ -29,7 +29,7 @@
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="T:Person_Teacher_Student"/> class with specified id, surname, name, age, carNumber, experience, cost, pay
+        /// Initializes a new instance of the <see cref="T:Task3.DAO.DataTypes"/> class with specified id, surname, name, age, carNumber, experience, cost, pay
         /// </summary>
         /// <param name="id"></param>
         /// <param name="surname"></param>
@@ -53,8 +53,8 @@
 
         /// <summary>
         /// Gets variable id
-        /// <value>The id</value>
         /// </summary>
+        /// <value>The id</value>
         public uint Id
         {
             get
@@ -75,8 +75,8 @@
 
         /// <summary>
         /// Gets variable surname
-        /// <value>The surname</value>
         /// </summary>
+        /// <value>The surname</value>
         public string Surname
         {
             get
@@ -97,8 +97,8 @@
 
         /// <summary>
         /// Gets variable name
-        /// <value>The name</value>
         /// </summary>
+        /// <value>The name</value>
         public string Name
         {
             get
@@ -119,8 +119,8 @@
 
         /// <summary>
         /// Gets variable age
-        /// <value>The age</value>
         /// </summary>
+        /// <value>The age</value>
         public uint Age
         {
             get
@@ -141,8 +141,8 @@
 
         /// <summary>
         /// Gets variable carNumber
-        /// <value>The carNumber</value>
         /// </summary>
+        /// <value>The carNumber</value>
         public string CarNumber
         {
             get
@@ -163,8 +163,8 @@
 
         /// <summary>
         /// Gets variable experience
-        /// <value>The experience</value>
         /// </summary>
+        /// <value>The experience</value>
         public uint Experience
         {
             get
@@ -185,8 +185,8 @@
 
         /// <summary>
         /// Gets variable costPerMinute
-        /// <value>The costPerMinute</value>
         /// </summary>
+        /// <value>The costPerMinute</value>
         public uint CostPerMinute
         {
             get
@@ -207,8 +207,8 @@
 
         /// <summary>
         /// Gets variable payCheck
-        /// <value>The payCheck</value>
         /// </summary>
+        /// <value>The payCheck</value>
         public double PayCheck
         {
             get
