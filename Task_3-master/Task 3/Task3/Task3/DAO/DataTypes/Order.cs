@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Task3.DAO.DataTypes
+﻿namespace Task3.DAO.DataTypes
 {
+    using System;
+
     public class Order
     {
         private uint id;
@@ -14,103 +14,120 @@ namespace Task3.DAO.DataTypes
         {
             get
             {
-                return id;
+                return this.id;
             }
+
             set
             {
                 if (value < 0)
                 {
                     throw new ArgumentOutOfRangeException("Id can't be <0");
                 }
-                id = value;
+
+                this.id = value;
             }
         }
+
         public Client Client
         {
             get
             {
-                return Client1;
+                return this.Client1;
             }
+
             set
             {
-                Client1 = value;
+                this.Client1 = value;
             }
         }
+
         public Driver Driver { get; set; }
+
         public DateTime ArriveTime { get; set; }
+
         public string Dispatch
         {
             get
             {
-                return dispatch;
+                return this.dispatch;
             }
             set
             {
-                dispatch = value ?? throw new ArgumentOutOfRangeException("Dispatch is not set!");
+                this.dispatch = value ?? throw new ArgumentOutOfRangeException("Dispatch is not set!");
             }
         }
+
         public string Destination
         {
             get
             {
-                return destination;
+                return this.destination;
             }
+
             set
             {
                 if (value.Equals(dispatch))
                 {
                     throw new ArgumentOutOfRangeException("Destination and dispatch are the same place!");
                 }
-                destination = value;
+
+                this.destination = value;
             }
         }
+
         public uint RoadTime
         {
             get
             {
-                return roadTime;
+                return this.roadTime;
             }
+
             set
             {
                 if (value < 0)
                 {
                     throw new ArgumentOutOfRangeException("Road time can only be >= than 0!");
                 }
-                roadTime = value;
+
+                this.roadTime = value;
             }
         }
+
         public uint Cost
         {
             get
             {
-                return cost;
+                return this.cost;
             }
+
             set
             {
                 if (value < 0)
                 {
                     throw new ArgumentOutOfRangeException("Cost must be >= than 0!");
                 }
-                cost = value;
+
+                this.cost = value;
             }
         }
+
         public bool IsDone { get; set; }
 
         public Client Client1 { get; set; }
 
         public Order() { }
 
-        public Order(uint _id, Client _client, Driver _driver, DateTime _arrive, string _dispatch, string _destination, uint _roadTime, uint _cost = 0, bool _isDone = false)
+        public Order(uint id, Client client, Driver driver, DateTime arrive, string dispatch, string destination, uint roadTime, uint cost = 0, bool isDone = false)
         {
-            Id = _id;
-            Client = _client;
-            Driver = _driver;
-            ArriveTime = _arrive;
-            Dispatch = _dispatch;
-            Destination = _destination;
-            RoadTime = _roadTime;
-            Cost = _cost;
-            IsDone = _isDone;
+            this.Id = id;
+            this.Client = client;
+            this.Driver = driver;
+            this.ArriveTime = arrive;
+            this.Dispatch = dispatch;
+            this.Destination = destination;
+            this.RoadTime = roadTime;
+            this.Cost = cost;
+            this.IsDone = isDone;
         }
 
         public override string ToString()
