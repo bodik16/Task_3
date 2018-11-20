@@ -21,7 +21,7 @@ namespace Task3.DAO.DataTypes
             {
                 if (value < 0)
                 {
-                    throw new ArgumentOutOfRangeException("Client Id cant be < than 0");
+                    throw new ArgumentOutOfRangeException("Client Id can't be < than 0");
                 }
                 id = value;
             }
@@ -36,7 +36,7 @@ namespace Task3.DAO.DataTypes
             {
                 if (String.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentOutOfRangeException("Name cant be empty");
+                    throw new ArgumentOutOfRangeException("Name can't be empty");
                 }
                 name = value;
             }
