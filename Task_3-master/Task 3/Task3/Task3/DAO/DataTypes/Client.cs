@@ -12,6 +12,15 @@
         private string name;
         private string phoneNumber;
 
+        public Client() { }
+
+        public Client(uint id, string name, string phoneNumber)
+        {
+            this.Id = id;
+            this.Name = name;
+            this.PhoneNumber = phoneNumber;
+        }
+
         public uint Id
         {
             get
@@ -64,15 +73,6 @@
 
                 this.phoneNumber = value;
             }
-        }
-
-        public Client() { }
-
-        public Client(uint _id, string _name, string _phoneNumber)
-        {
-            this.Id = _id;
-            Name = _name;
-            PhoneNumber = _phoneNumber;
         }
 
         public override string ToString()
