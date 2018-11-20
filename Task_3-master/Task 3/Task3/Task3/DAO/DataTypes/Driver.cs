@@ -6,6 +6,9 @@
     using System.Text;
     using System.Threading.Tasks;
 
+    /// <summary>
+    /// Represents class Driver
+    /// </summary>
     public class Driver
     {
         private uint id;
@@ -17,11 +20,25 @@
         private uint costPerMinute;
         private double payCheck;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="T:Task3.DAO.DataTypes"/> class
+        /// </summary>
         public Driver()
         {
             this.PayCheck = 0;
         }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="T:Person_Teacher_Student"/> class with specified id, surname, name, age, carNumber, experience, cost, pay
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="surname"></param>
+        /// <param name="name"></param>
+        /// <param name="age"></param>
+        /// <param name="carNumber"></param>
+        /// <param name="experience"></param>
+        /// <param name="cost"></param>
+        /// <param name="pay"></param>
         public Driver(uint id, string surname, string name, uint age, string carNumber, uint experience, uint cost, double pay = 0)
         {
             this.Id = id;
@@ -34,6 +51,10 @@
             this.PayCheck = pay;
         }
 
+        /// <summary>
+        /// Gets variable id
+        /// <value>The id</value>
+        /// </summary>
         public uint Id
         {
             get
@@ -52,6 +73,10 @@
             }
         }
 
+        /// <summary>
+        /// Gets variable surname
+        /// <value>The surname</value>
+        /// </summary>
         public string Surname
         {
             get
@@ -70,6 +95,10 @@
             }
         }
 
+        /// <summary>
+        /// Gets variable name
+        /// <value>The name</value>
+        /// </summary>
         public string Name
         {
             get
@@ -88,6 +117,10 @@
             }
         }
 
+        /// <summary>
+        /// Gets variable age
+        /// <value>The age</value>
+        /// </summary>
         public uint Age
         {
             get
@@ -106,6 +139,10 @@
             }
         }
 
+        /// <summary>
+        /// Gets variable carNumber
+        /// <value>The carNumber</value>
+        /// </summary>
         public string CarNumber
         {
             get
@@ -124,6 +161,10 @@
             }
         }
 
+        /// <summary>
+        /// Gets variable experience
+        /// <value>The experience</value>
+        /// </summary>
         public uint Experience
         {
             get
@@ -142,6 +183,10 @@
             }
         }
 
+        /// <summary>
+        /// Gets variable costPerMinute
+        /// <value>The costPerMinute</value>
+        /// </summary>
         public uint CostPerMinute
         {
             get
@@ -160,6 +205,10 @@
             }
         }
 
+        /// <summary>
+        /// Gets variable payCheck
+        /// <value>The payCheck</value>
+        /// </summary>
         public double PayCheck
         {
             get
@@ -178,6 +227,10 @@
             }
         }
 
+        /// <summary>
+        /// Returns a string that represents the current instance
+        /// </summary>
+        /// <returns><see cref="T:System.String"/></returns>
         public override string ToString()
         {
             return String.Format("{0} {1} {2} {3} {4} {5} {6} {7}", this.Id, this.Surname, this.Name, this.Age, this.CarNumber, this.Experience, this.CostPerMinute, this.PayCheck);
