@@ -18,7 +18,7 @@ namespace Taxi_Driver_WPF.IOTypes
             {
                 if (allOrders.Count == 0)
                 {
-                    throw new ArgumentOutOfRangeException("Orders are empty");
+                    throw new ArgumentOutOfRangeException("Orders are empty!");
                 }
                 return allOrders;
             }
@@ -26,7 +26,7 @@ namespace Taxi_Driver_WPF.IOTypes
             {
                 if (value.Count == 0)
                 {
-                    throw new ArgumentOutOfRangeException("Orders are empty");
+                    throw new ArgumentOutOfRangeException("Orders are empty!");
                 }
                 allOrders = value;
             }
