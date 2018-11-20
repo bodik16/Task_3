@@ -6,14 +6,24 @@
     using System.Text;
     using System.Threading.Tasks;
 
+    /// <summary>
+    /// Represents class Client
+    /// </summary>
     public class Client
     {
         private uint id;
         private string name;
         private string phoneNumber;
 
-        public Client() { }
+        public Client()
+        { }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="T:Task3.DAO.DataTypes"/> class with specified id, name, phoneNumber
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="name"></param>
+        /// <param name="phoneNumber"></param>
         public Client(uint id, string name, string phoneNumber)
         {
             this.Id = id;
@@ -43,7 +53,7 @@
         {
             get
             {
-                return name;
+                return this.name;
             }
 
             set
@@ -53,7 +63,7 @@
                     throw new ArgumentOutOfRangeException("Name can't be empty");
                 }
 
-                name = value;
+                this.name = value;
             }
         }
 
@@ -77,7 +87,7 @@
 
         public override string ToString()
         {
-            return String.Format("{0} {1} {2}", Id, Name, PhoneNumber);
+            return String.Format("{0} {1} {2}", this.Id, this.Name, this.PhoneNumber);
         }
     }
 }

@@ -7,7 +7,7 @@
     <timestamps>
       <styleCop>2018.09.19 12:18:01.198</styleCop>
       <settingsFile>2018.09.19 12:18:00.956</settingsFile>
-      <sourceFile>2018.11.21 00:10:36.037</sourceFile>
+      <sourceFile>2018.11.21 00:13:08.883</sourceFile>
       <parser>2018.09.19 12:18:01.198</parser>
       <StyleCop.CSharp.DocumentationRules>2018.09.19 12:18:01.198</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-886176950</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -57,97 +57,42 @@
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementMustNotBeOnSingleLine" ruleCheckId="SA1502">
         <context>The constructor must not be placed on a single line. The opening and closing curly brackets must each be placed on their own line.</context>
-        <line>15</line>
+        <line>16</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The constructor must have a documentation header.</context>
-        <line>17</line>
+        <line>18</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The property must have a documentation header.</context>
-        <line>24</line>
+        <line>25</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The property must have a documentation header.</context>
-        <line>42</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to name must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>46</line>
-        <index>995</index>
-        <endIndex>998</endIndex>
-        <startLine>46</startLine>
-        <startColumn>24</startColumn>
-        <endLine>46</endLine>
-        <endColumn>27</endColumn>
+        <line>43</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
         <context>Use the built-in type alias 'string' rather than String or System.String.</context>
-        <line>51</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to name must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>56</line>
-        <index>1240</index>
-        <endIndex>1243</endIndex>
-        <startLine>56</startLine>
-        <startColumn>17</startColumn>
-        <endLine>56</endLine>
-        <endColumn>20</endColumn>
+        <line>52</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The property must have a documentation header.</context>
-        <line>60</line>
+        <line>61</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The method must have a documentation header.</context>
-        <line>78</line>
+        <line>79</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
         <context>Use the built-in type alias 'string' rather than String or System.String.</context>
-        <line>80</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to Id must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>80</line>
-        <index>1815</index>
-        <endIndex>1816</endIndex>
-        <startLine>80</startLine>
-        <startColumn>49</startColumn>
-        <endLine>80</endLine>
-        <endColumn>50</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to Name must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>80</line>
-        <index>1819</index>
-        <endIndex>1822</endIndex>
-        <startLine>80</startLine>
-        <startColumn>53</startColumn>
-        <endLine>80</endLine>
-        <endColumn>56</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
-        <context>The call to PhoneNumber must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
-        <line>80</line>
-        <index>1825</index>
-        <endIndex>1835</endIndex>
-        <startLine>80</startLine>
-        <startColumn>59</startColumn>
-        <endLine>80</endLine>
-        <endColumn>69</endColumn>
+        <line>81</line>
         <warning>False</warning>
       </violation>
     </violations>
