@@ -7,10 +7,29 @@
     /// </summary>
     public class Order
     {
+        /// <summary>
+        /// Variable id
+        /// </summary>
         private uint id;
+
+        /// <summary>
+        /// Variable dispatch
+        /// </summary>
         private string dispatch;
+
+        /// <summary>
+        /// Variable sedtination
+        /// </summary>
         private string destination;
+
+        /// <summary>
+        /// Variable roadTime
+        /// </summary>
         private uint roadTime;
+
+        /// <summary>
+        /// Variable cost
+        /// </summary>
         private uint cost;
 
         /// <summary>
@@ -158,10 +177,12 @@
         /// <value>The client1</value>
         public Client Client1 { get; set; }
 
-        public Order() { }
+        public Order()
+        {
+        }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="T:Task3.DAO.DataTypes"/> class with specified id, client, driver, arrive, dispatch, destination, roadTime, cost, isDone
+        /// Initializes a new instance of the <see cref="Order"/> class with specified id, client, driver, arrive, dispatch, destination, roadTime, cost, isDone
         /// </summary>
         /// <param name="id">id</param>
         /// <param name="client">client</param>
@@ -169,9 +190,9 @@
         /// <param name="arrive">arrive</param>
         /// <param name="dispatch">dispatch</param>
         /// <param name="destination">destination</param>
-        /// <param name="roadTime">roadTime</param>
+        /// <param name="roadTime">road Time</param>
         /// <param name="cost">cost</param>
-        /// <param name="isDone">isDone</param>
+        /// <param name="isDone">is Done</param>
         public Order(uint id, Client client, Driver driver, DateTime arrive, string dispatch, string destination, uint roadTime, uint cost = 0, bool isDone = false)
         {
             this.Id = id;
