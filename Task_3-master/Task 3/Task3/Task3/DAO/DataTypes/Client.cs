@@ -27,14 +27,15 @@
         private string phoneNumber;
 
         public Client()
-        { }
+        {
+        }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="T:Task3.DAO.DataTypes"/> class with specified id, name, phoneNumber
+        /// Initializes a new instance of the <see cref="Client"/> class with specified id, name, phoneNumber
         /// </summary>
         /// <param name="id">id</param>
         /// <param name="name">name</param>
-        /// <param name="phoneNumber">phoneNumber</param>
+        /// <param name="phoneNumber">phone number</param>
         public Client(uint id, string name, string phoneNumber)
         {
             this.Id = id;

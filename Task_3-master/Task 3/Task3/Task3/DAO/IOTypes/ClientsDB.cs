@@ -10,8 +10,25 @@
     /// </summary>
     public class ClientsDB
     {
+        /// <summary>
+        /// Variable fileName
+        /// </summary>
         private readonly string fileName;
+
+        /// <summary>
+        /// List of all clients
+        /// </summary>
         private List<Client> allClients;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ClientsDB"/> class with specified fileName
+        /// </summary>
+        /// <param name="fileName">file name</param>
+        public ClientsDB(string fileName)
+        {
+            this.allClients = new List<Client>();
+            this.fileName = fileName;
+        }
 
         /// <summary>
         /// Gets variable allClients
@@ -33,16 +50,6 @@
 
                 this.allClients = value;
             }
-        }
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="T:Task3.DAO.DataTypes"/> class with specified fileName
-        /// </summary>
-        /// <param name="fileName"></param>
-        public ClientsDB(string fileName)
-        {
-            this.allClients = new List<Client>();
-            this.fileName = fileName;
         }
 
         /// <summary>
@@ -72,6 +79,11 @@
             }
         }
 
+        /// <summary>
+        /// Gets clients by id
+        /// </summary>
+        /// <param name="clientId">client id</param>
+        /// <returns>search result</returns>
         public Client GetClientById(uint clientId)
         {
             Client searchResult = new Client();

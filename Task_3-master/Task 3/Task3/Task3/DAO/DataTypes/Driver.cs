@@ -66,7 +66,7 @@
         /// <param name="surname">surname</param>
         /// <param name="name">name</param>
         /// <param name="age">age</param>
-        /// <param name="carNumber">carNumber</param>
+        /// <param name="carNumber">car number</param>
         /// <param name="experience">experience</param>
         /// <param name="cost">cost</param>
         /// <param name="pay">pay</param>
